@@ -1,0 +1,66 @@
+html, body {
+    margin: 400;
+    padding: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to left, #26ff77, #adffd0);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-bottom: auto;
+}
+.menu {
+    width: 10%;
+    background-color: #adffd0;
+    padding:150px 0px 100px;
+    align-items: center;
+    margin: auto;
+}
+.header {
+    background-image: linear-gradient(to left, #26ff77, #adffd0);
+    min-height: 100px;
+}
+.content {
+    background-color: whitesmoke;
+    min-height: 450px;
+    padding: auto;
+    text-align: center;
+    border: solid;
+    text-indent: 1.5em;
+}
+.footer {
+    background-image: linear-gradient(to left, #26ff77, #adffd0);
+    width: 100%;
+}
+
+table thead th {
+    background-color: #26ff77;
+    border: dashed 1px #26ff77;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #adffd0;
+}
+
+table tbody tr td {
+    text-align: center;
+}
+div {
+    display: inline-block;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+}
